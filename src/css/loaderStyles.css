@@ -1,0 +1,129 @@
+.bubblingG {
+  text-align: center;
+  width: 220px;
+  height: 138px;
+  margin: auto;
+}
+
+.bubblingG span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 28px;
+  height: 28px;
+  margin: 69px auto;
+  background: rgb(0, 0, 0);
+  border-radius: 138px;
+  -o-border-radius: 138px;
+  -ms-border-radius: 138px;
+  -webkit-border-radius: 138px;
+  -moz-border-radius: 138px;
+  animation: bubblingG 1.5s infinite alternate;
+  -o-animation: bubblingG 1.5s infinite alternate;
+  -ms-animation: bubblingG 1.5s infinite alternate;
+  -webkit-animation: bubblingG 1.5s infinite alternate;
+  -moz-animation: bubblingG 1.5s infinite alternate;
+}
+
+#bubblingG_1 {
+  animation-delay: 0s;
+  -o-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+}
+
+#bubblingG_2 {
+  animation-delay: 0.45s;
+  -o-animation-delay: 0.45s;
+  -ms-animation-delay: 0.45s;
+  -webkit-animation-delay: 0.45s;
+  -moz-animation-delay: 0.45s;
+}
+
+#bubblingG_3 {
+  animation-delay: 0.9s;
+  -o-animation-delay: 0.9s;
+  -ms-animation-delay: 0.9s;
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+}
+
+@keyframes bubblingG {
+  0% {
+    width: 28px;
+    height: 28px;
+    background-color: rgb(0, 0, 0);
+    transform: translateY(0);
+  }
+
+  100% {
+    width: 66px;
+    height: 66px;
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-58px);
+  }
+}
+
+@-o-keyframes bubblingG {
+  0% {
+    width: 28px;
+    height: 28px;
+    background-color: rgb(0, 0, 0);
+    -o-transform: translateY(0);
+  }
+
+  100% {
+    width: 66px;
+    height: 66px;
+    background-color: rgb(255, 255, 255);
+    -o-transform: translateY(-58px);
+  }
+}
+
+@-ms-keyframes bubblingG {
+  0% {
+    width: 28px;
+    height: 28px;
+    background-color: rgb(0, 0, 0);
+    -ms-transform: translateY(0);
+  }
+
+  100% {
+    width: 66px;
+    height: 66px;
+    background-color: rgb(255, 255, 255);
+    -ms-transform: translateY(-58px);
+  }
+}
+
+@-webkit-keyframes bubblingG {
+  0% {
+    width: 28px;
+    height: 28px;
+    background-color: rgb(0, 0, 0);
+    -webkit-transform: translateY(0);
+  }
+
+  100% {
+    width: 66px;
+    height: 66px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transform: translateY(-58px);
+  }
+}
+
+@-moz-keyframes bubblingG {
+  0% {
+    width: 28px;
+    height: 28px;
+    background-color: rgb(0, 0, 0);
+    -moz-transform: translateY(0);
+  }
+
+  100% {
+    width: 66px;
+    height: 66px;
+    background-color: rgb(255, 255, 255);
+    -moz-transform: translateY(-58px);
+  }
+}
